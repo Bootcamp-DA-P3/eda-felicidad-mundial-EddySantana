@@ -1,0 +1,14 @@
+﻿,tipo,nulos,porcentaje_nulos
+Year,int64,0,0.0
+Rank,int64,0,0.0
+Country name,str,0,0.0
+Life evaluation (3-year average),float64,0,0.0
+Lower whisker,float64,1094,51.7
+Upper whisker,float64,1094,51.7
+Explained by: Log GDP per capita,float64,1097,51.84
+Explained by: Social support,float64,1097,51.84
+Explained by: Healthy life expectancy,float64,1100,51.98
+Explained by: Freedom to make life choices,float64,1099,51.94
+Explained by: Generosity,float64,1097,51.84
+Explained by: Perceptions of corruption,float64,1098,51.89
+Dystopia + residual,float64,1103,52.13
