@@ -147,10 +147,8 @@ Desarrollo el proyecto de forma individual y registro los avances
 mediante commits descriptivos.
 
 - `analisis-felicidad`: rama donde realicé la limpieza y los análisis.
-- `develop`: rama actual, creada a partir de los avances de
-  `analisis-felicidad`, para completar la documentación y la entrega.
-- `main`: rama destinada a recibir la versión final revisada;
-  la integración de los últimos avances sigue pendiente.
+- `develop`: rama donde completé la documentación y preparé la entrega.
+- `main`: contiene la versión integrada del proyecto y el informe ejecutivo.
 
 En macOS o Linux, utiliza `.venv/bin/python` en lugar de `.\.venv\Scripts\python.exe`.
 
@@ -168,4 +166,4 @@ En macOS o Linux, utiliza `.venv/bin/python` en lugar de `.\.venv\Scripts\python
 
 ## Estado de la entrega
 
-El notebook, los CSV y los gráficos están preparados. El informe ejecutivo y la revisión final de la entrega están en elaboración.
+El repositorio está publicado en GitHub e incluye el notebook explicado, los datos preparados, los gráficos estáticos e interactivos y el [informe ejecutivo en PDF](reports/informe_ejecutivo_felicidad.pdf). Los avances están integrados en `main`; conservo las ramas `develop` y `analisis-felicidad` para documentar el desarrollo. Queda pendiente la comprobación final de los archivos publicados.
