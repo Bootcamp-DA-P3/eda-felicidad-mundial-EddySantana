@@ -26,6 +26,19 @@ Fuentes:
 - [Datos del World Happiness Report](https://www.worldhappiness.report/data-sharing/)
 - [Metodología y resultados del informe 2026](https://www.worldhappiness.report/ed/2026/international-evidence-on-happiness-and-social-media/)
 
+### Interpretación de los cortes temporales
+
+La comparación entre los cortes 2019 y 2025 utiliza las puntuaciones
+de los períodos 2017–2019 y 2023–2025, publicadas en los informes
+2020 y 2026, respectivamente.
+
+El informe publicado en 2019 corresponde a 2016–2018 y no es la
+base de esta comparación. Mantengo las etiquetas del Excel en los
+nombres de archivos para conservar la trazabilidad.
+
+Fuente del período histórico:
+https://www.worldhappiness.report/ed/2020/social-environments-for-world-happiness/
+
 ## Estructura
 
 | Ruta | Contenido |
