@@ -64,6 +64,39 @@ También examino:
 - La falta de datos recientes de Cuba en el archivo.
 - El índice de Felicidad Nacional Bruta de Bután como contexto metodológico, sin mezclarlo con el ranking mundial.
 
+## Análisis interactivo y estadístico
+
+He incorporado los siguientes apartados al notebook:
+
+- Dos gráficos interactivos con Bokeh: dispersión de apoyo social y
+  felicidad, y comparación de las correlaciones de los seis factores.
+  Ambos muestran valores al pasar el cursor y se guardan como HTML
+  autónomos en `reports/figures/`, consultables sin internet.
+
+- Una simulación del teorema del límite central con 5.000 muestras
+  de 30 países, seleccionados con reemplazo. La media de las medias
+  simuladas es 5,648, frente a 5,650 en los datos. La desviación de
+  las medias simuladas y el error estándar teórico son 0,207,
+  redondeados a tres decimales.
+
+- Una prueba bilateral de independencia mediante 10.000 permutaciones
+  entre el aporte del apoyo social y la felicidad, con 145 países.
+  Obtengo r = 0,8119 y un p-value estimado de 0,000100. Rechazo la
+  hipótesis nula bajo los supuestos de la prueba. El resultado es
+  exploratorio: seleccioné el factor después de examinar las
+  correlaciones y la intercambiabilidad entre países es una limitación.
+
+- Una regresión lineal simple:
+  felicidad ajustada = 2,5278 + 2,6032 × aporte del apoyo social.
+  Obtengo R² = 0,6591 y RMSE = 0,6652 sobre los datos utilizados
+  para ajustar la recta. Reviso visualmente los residuos y documento
+  sus patrones y valores extremos. No considero estas métricas
+  una validación predictiva en datos nuevos.
+
+Estos ejercicios no demuestran causalidad. La prueba de permutaciones
+evalúa la asociación entre apoyo social y felicidad, no la significación
+de los cambios temporales entre 2019 y 2025.
+
 ## Principales resultados
 
 - La media de los 147 países es 5,650 y la mediana, 5,937.
@@ -95,7 +128,16 @@ python -m venv .venv
 6. Selecciona `.venv` como kernel.
 7. Pulsa **Reiniciar** y después **Ejecutar todo**.
 
-El notebook busca el Excel en `data/raw/` y genera las tablas y figuras en `reports/`. Al ejecutarlo de nuevo, actualiza los archivos de resultados con los mismos nombres.
+## Organización del trabajo con Git
+
+Desarrollo el proyecto de forma individual y registro los avances
+mediante commits descriptivos.
+
+- `analisis-felicidad`: rama donde realicé la limpieza y los análisis.
+- `develop`: rama actual, creada a partir de los avances de
+  `analisis-felicidad`, para completar la documentación y la entrega.
+- `main`: rama destinada a recibir la versión final revisada;
+  la integración de los últimos avances sigue pendiente.
 
 En macOS o Linux, utiliza `.venv/bin/python` en lugar de `.\.venv\Scripts\python.exe`.
 
