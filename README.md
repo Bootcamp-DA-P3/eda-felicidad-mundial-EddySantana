@@ -166,4 +166,4 @@ En macOS o Linux, utiliza `.venv/bin/python` en lugar de `.\.venv\Scripts\python
 
 ## Estado de la entrega
 
-El repositorio está publicado en GitHub e incluye el notebook explicado, los datos preparados, los gráficos estáticos e interactivos y el [informe ejecutivo en PDF](reports/informe_ejecutivo_felicidad.pdf). Los avances están integrados en `main`; conservo las ramas `develop` y `analisis-felicidad` para documentar el desarrollo. Queda pendiente la comprobación final de los archivos publicados.
+El repositorio está publicado en GitHub e incluye el notebook explicado, los datos preparados, los gráficos estáticos e interactivos y el [informe ejecutivo en PDF](reports/informe_ejecutivo_felicidad.pdf). Los avances están integrados en `main`; conservo las ramas `develop` y `analisis-felicidad` para documentar el desarrollo. He comprobado en GitHub la visualización del notebook con sus gráficos y las seis páginas del informe ejecutivo.
