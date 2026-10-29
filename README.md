@@ -1,6 +1,6 @@
 # EDA de la felicidad mundial
 
-![La felicidad en datos: análisis exploratorio del bienestar mundial](reports/figures/banner_readme.png)
+![La llave de la felicidad: análisis exploratorio del bienestar mundial](reports/figures/banner_readme.png)
 
 Proyecto individual de análisis exploratorio de datos realizado con Python.
 
